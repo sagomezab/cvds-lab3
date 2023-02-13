@@ -43,10 +43,11 @@ public class Registry {
                     return 5;
                 }
             }
+            dataBase.add(p);
+            return 1;
         }else{
             dataBase.add(p);
             return 1;
         }
-        return 0;
     }
 }
